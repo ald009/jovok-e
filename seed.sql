@@ -44,15 +44,15 @@ INSERT INTO players (name, email, phone_number, reliability_rate) VALUES
 INSERT INTO events
 (event_name,start_date,end_date,event_type,place,price,expected_members,real_members)
 VALUES
-('Edzés 1','2026-01-05 18:00','2026-01-05 20:00','Edzés','Sportcsarnok',12000,12,11),
-('Edzés 2','2026-01-07 18:00','2026-01-07 20:00','Edzés','Sportcsarnok',12000,12,10),
-('Edzés 3','2026-01-09 18:00','2026-01-09 20:00','Edzés','Sportcsarnok',12000,12,12),
-('Mérkőzés 1','2026-01-12 17:00','2026-01-12 19:00','Mérkőzés','Városi stadion',20000,16,15),
-('Mérkőzés 2','2026-01-15 17:00','2026-01-15 19:00','Mérkőzés','Városi stadion',20000,16,14),
+('Edzés 1','2025-09-05 18:00','2025-09-05 20:00','Edzés','Sportcsarnok',12000,12,11),
+('Edzés 2','2025-08-07 18:00','2025-08-07 20:00','Edzés','Sportcsarnok',12000,12,10),
+('Edzés 3','2025-12-09 18:00','2025-12-09 20:00','Edzés','Sportcsarnok',12000,12,12),
+('Mérkőzés 1','2025-09-12 17:00','2025-09-12 19:00','Mérkőzés','Városi stadion',20000,16,15),
+('Mérkőzés 2','2025-11-15 17:00','2025-11-15 19:00','Mérkőzés','Városi stadion',20000,16,14),
 
 -- további események
-('Edzés 4','2026-01-17 18:00','2026-01-17 20:00','Edzés','Csarnok',5000,10,NULL),
-('Edzés 5','2026-01-19 18:00','2026-01-19 20:00','Edzés','Csarnok',5000,10,NULL),
+('Edzés 4','2025-04-17 18:00','2025-04-17 20:00','Edzés','Csarnok',5000,10,NULL),
+('Edzés 5','2025-06-19 18:00','2025-06-19 20:00','Edzés','Csarnok',5000,10,NULL),
 ('Edzés 6','2026-01-21 18:00','2026-01-21 20:00','Edzés','Csarnok',5000,10,NULL),
 ('Mérkőzés 3','2026-01-23 17:00','2026-01-23 19:00','Mérkőzés','Aréna',NULL,16,NULL),
 ('Mérkőzés 4','2026-01-25 17:00','2026-01-25 19:00','Mérkőzés','Aréna',NULL,16,NULL),

@@ -11,6 +11,8 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema Jovok_e
 -- -----------------------------------------------------
+drop database if exists Jovok_e;
+
 CREATE SCHEMA IF NOT EXISTS `Jovok_e` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_hungarian_ci ;
 USE `Jovok_e` ;
 
