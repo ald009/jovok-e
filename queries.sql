@@ -10,3 +10,4 @@ select real_members, expected_members, real_members / expected_members as részv
 
 -- mennyi pénzt költött a csapat pályabérlésre az elmúlt 3 hónabban?
 select price, end_date from events where end_date >= timestampadd(month,-3, current_timestamp()) and end_date <= current_timestamp() ;
+-- EZT MEG SUMMAZNI KELL NEM NEHEZ NIGGER
