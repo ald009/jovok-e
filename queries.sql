@@ -1,16 +1,15 @@
 
--- melyik jatekos a legmegbizhatóbb
+-- Melyik jatekos a legmegbizhatóbb
 select name, reliability_rate from players order by reliability_rate desc;
 
--- hányan jönnek várhatóan a következő edzésekre
+-- Hányan jönnek várhatóan a következő edzésekre
 select event_name, expected_members from events order by event_name asc;
 
--- melyik napokon van legjobb részvételi arány
+-- Melyik napokon van legjobb részvételi arány
 select real_members, expected_members, real_members / expected_members as részvételi_arány from events order by részvételi_arány desc;
 
--- mennyi pénzt költött a csapat pályabérlésre az elmúlt 3 hónabban?
+-- Az utolsó három hónapban elköltött pénzek
 select price, end_date from events where end_date >= timestampadd(month,-3, current_timestamp()) and end_date <= current_timestamp() ;
--- EZT MEG SUMMAZNI KELL NEM NEHEZ NIGGER
 
 -- Nagy létszámú események
 SELECT event_name, expected_members FROM events WHERE expected_members > 12;
