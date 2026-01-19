@@ -23,16 +23,16 @@ INSERT INTO players (name, email, phone_number, reliability_rate) VALUES
 ('Kovács János','p1@mail.hu','061111111',95),
 ('Kovács Árpád','p2@mail.hu','062222222',90),
 ('Szabó Péter','p3@mail.hu','063333333',85),
-('Barta Bulcsú','p4@mail.hu','064444444',100),
-('Kiss László','p5@mail.hu','065555555',88),
-('Nagy Balázs','p6@mail.hu','066666666',92),
-('Tóth Gergely','p7@mail.hu','067777777',97),
-('Horváth András','p8@mail.hu','068888888',80),
+('Barta Bulcsú','p4@mail.hu','06707257247',12),
+('Molnár Maxim','p5@mail.hu','065555555',88),
+('Simonyi Dániel György','p6@mail.hu','066666666',92),
+('Kovács Zoltán','p7@mail.hu','067777777',97),
+('Atharoxia','p8@mail.hu','068888888',80),
 ('Molnár Tamás','p9@mail.hu','069999999',75),
-('Németh Bence','p10@mail.hu','061010101',93),
+('Szalay István','p10@mail.hu','061010101',93),
 ('Farkas Dávid','p11@mail.hu','061111112',89),
 ('Papp Roland','p12@mail.hu','061111113',91),
-('Kelemen Márk','p13@mail.hu','061111114',94),
+('Osbáth Márk','p13@mail.hu','061111114',94),
 ('Lukács Máté','p14@mail.hu','061111115',90),
 ('Takács Norbert','p15@mail.hu','061111116',86),
 ('Balogh Kristóf','p16@mail.hu','061111117',88),
@@ -68,6 +68,7 @@ INSERT INTO reply (state, replytext, players_idplayers) VALUES
 ('Nem jön','Sérült',3),
 ('Jön',NULL,4),
 ('Jön','Időben érkezem',5);
+('Nem Jön','El bartáztam, és most elbúlcsúzok tőletek örökre :[ )',4);
 
 INSERT INTO events_has_reply
 (events_idevents, reply_idreply, reply_players_idplayers, team_post)
